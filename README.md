@@ -1,6 +1,6 @@
 # MVPs
 
-A monorepo of small, self-contained projects — each a fully functional MVP built to explore an idea end-to-end.
+A monorepo of small, self-contained projects — each a functional MVP built to explore an idea end-to-end.
 
 ---
 
