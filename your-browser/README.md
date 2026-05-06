@@ -1,6 +1,6 @@
-# Intent Browser
+# Your Browser
 
-> The web, inverted. *You* tell every page what it's for. Everything else dissolves.
+> The web, inverted. *You* tell every page should look like. Youtube should have the UI you think it should have + video. You should have the UI as you want, not just the one they offer to you.
 
 This is an MVP Chrome extension that lets you walk into any website — YouTube,
 Google, Facebook, a news site you've never seen — and immediately declare what
