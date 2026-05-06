@@ -33,7 +33,35 @@ Outputs land in `data/` (raw + cleaned panel) and `output/` (episode tables, sum
 
 ---
 
-### 2. intent-browser
+### 2. mon
+
+**An ambient mentor for your screen.** Every N minutes, `mon` captures your screen, asks a vision model what you're doing, compares it against your stated goals with an LLM, and **either stays silent (focused) or speaks one short nudge** via macOS `say`.
+
+Built with Python (≥3.12) and `uv`. Uses DeepSeek for reasoning and Kimi VL for vision (both via OpenRouter); local macOS `say` for TTS. Optional `--research` flag runs web-backed academic lookups on whatever's on screen and feeds the brief to the mentor. Per-goal memory persists across runs so it doesn't repeat itself.
+
+**Setup**
+
+```bash
+cd mon
+uv sync
+cp .env.example .env   # set OPENROUTER_API_KEY
+```
+
+Grant macOS Screen Recording permission to your terminal/IDE on first run.
+
+**Run**
+
+```bash
+uv run mon --goals goals.example.txt --interval 10        # loop every 10 min
+uv run mon --goals goals.example.txt --once               # single cycle
+uv run mon --goals goals.example.txt --interval 10 --research  # with background research
+```
+
+See [mon/README.md](mon/README.md) for goals-file format, TTS voice selection, memory tunables, and model overrides.
+
+---
+
+### 3. intent-browser
 
 **A Chrome browser extension.** The web, inverted — *you* tell every page what it's for, and everything else dissolves.
 
@@ -68,6 +96,12 @@ MVPs/
 │   ├── scripts/                  # pipeline scripts
 │   ├── data/                     # raw + cleaned data
 │   └── output/                   # tables, stats, charts
+├── mon/                          # ambient screen-aware mentor (Python + uv)
+│   ├── __main__.py               # CLI entrypoint
+│   ├── loop.py                   # capture → vision → mentor → TTS cycle
+│   ├── vision.py / llm.py        # OpenRouter clients
+│   ├── research.py               # optional web-backed research
+│   └── memory.py                 # per-goal mentor memory (JSONL)
 └── intent-browser/               # Chrome extension (Manifest V3)
     ├── manifest.json
     ├── background.js              # service worker (LLM proxy)
