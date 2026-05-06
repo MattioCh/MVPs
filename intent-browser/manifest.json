@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Intent Browser",
+  "version": "0.1.0",
+  "description": "You decide what every website shows you. Strip ads, distractions, and anything you didn't ask for.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "action": { "default_popup": "popup.html", "default_title": "Intent Browser" }
+}

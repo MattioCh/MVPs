@@ -1,0 +1,7 @@
+name,latest_valuation_usd_b,latest_round_date,latest_revenue_usd_b,revenue_period,net_income_usd_b,net_income_period,source_notes
+OpenAI,500,2025-10,13.0,2025E,-9.0,2025E,"Oct 2025 employee tender at $500B; 2025 revenue ~$13B per FT/Reuters; ~$9B net loss reported by The Information"
+Anthropic,183,2025-09,5.0,2025E_ARR,-3.0,2025E,"Sep 2025 Series F at $183B; ARR ~$5B mid-2025 per The Information; estimated loss"
+SpaceX,400,2025-07,13.1,2024A,0.0,2024A,"July 2025 tender at ~$400B per Bloomberg; 2024 revenue $13.1B per Bloomberg/Reuters; roughly breakeven"
+xAI,200,2025-09,0.5,2025E,-2.0,2025E,"Sep 2025 round at $200B; revenue minimal; large losses (Grok training)"
+Stripe,91.5,2025-02,18.0,2024A,1.4,2024A,"Feb 2025 tender at $91.5B; 2024 payment volume implied revenue per Stripe disclosures; profitable since 2024"
+Databricks,62,2024-12,3.0,2025E_ARR,-0.5,2025E,"Dec 2024 Series J at $62B; $3B ARR per company; estimated loss"

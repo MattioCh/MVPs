@@ -1,0 +1,7 @@
+holder_ticker,investee,stake_pct,stake_basis,notes
+MSFT,OpenAI,27.0,equity_economic,"~27% economic interest post-Apr 2026 restructure; Microsoft invested ~$13B; share of OpenAI losses flows through MSFT 'OI&E - net' (equity method-ish)"
+GOOGL,Anthropic,14.0,equity_economic,"Google invested >$3B; estimated ~14% economic stake (pre-money math from Series E/F)"
+AMZN,Anthropic,19.0,equity_economic,"Amazon $8B total investment; ~19% economic stake (Reuters/CNBC estimates)"
+GOOGL,SpaceX,0.0,none,"No material stake"
+NVDA,OpenAI,2.0,equity_economic,"Sept 2025 Nvidia announced up to $100B over time; small initial tranche; circular financing flag"
+NVDA,xAI,5.0,equity_economic,"Nvidia invested in xAI Sep 2025 round"

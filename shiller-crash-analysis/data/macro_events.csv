@@ -1,0 +1,34 @@
+date,event,category,direction_prior,notes
+2016-06-23,Brexit referendum vote,geopolitics,negative,UK votes to leave EU; immediate -5% on S&P
+2016-11-08,Trump elected (1st term),politics,ambiguous,Surprise win; futures crashed overnight then rallied
+2017-12-22,TCJA tax cuts signed,policy,positive,Corporate rate 35%->21%
+2018-03-22,Trump China tariffs (first round Sec 301),tariff,negative,Trade war begins
+2018-12-19,Powell hawkish pivot / Q4 selloff trough,monetary,negative,S&P -19% peak-to-trough
+2019-01-04,Powell dovish pivot (Atlanta speech),monetary,positive,Risk-on resumes
+2020-01-15,US-China Phase One trade deal signed,tariff,positive,Tariff de-escalation
+2020-03-11,WHO declares COVID pandemic,pandemic,negative,Followed by -34% crash through Mar 23
+2020-03-23,Fed unlimited QE / market bottom,monetary,positive,Fed announces unlimited bond purchases
+2020-11-09,Pfizer vaccine efficacy announced,pandemic,positive,Major value/cyclicals rotation
+2020-11-07,Biden elected,politics,ambiguous,
+2021-01-06,Capitol riot / GA Senate runoff,politics,ambiguous,Dem trifecta confirmed
+2021-11-22,Powell renominated / hawkish pivot,monetary,negative,Beginning of 2022 bear market setup
+2022-02-24,Russia invades Ukraine,geopolitics,negative,Energy/commodities spike
+2022-03-16,Fed first rate hike (post-COVID cycle),monetary,negative,+25bp begins hiking cycle
+2022-06-15,Fed first 75bp hike,monetary,negative,Largest hike since 1994
+2022-11-30,ChatGPT public release,technology,positive,Kicks off AI rally
+2023-03-10,SVB collapse,banking,negative,Regional banking crisis
+2023-05-04,Fed signals pause,monetary,positive,End of hiking cycle visible
+2023-10-07,Hamas attack on Israel,geopolitics,negative,Middle East war begins
+2023-11-01,Fed pause confirmed (FOMC),monetary,positive,Triggers Nov-Dec '23 melt-up
+2024-04-13,Iran first direct strike on Israel,geopolitics,negative,Drone/missile barrage
+2024-09-18,Fed first rate cut (50bp),monetary,positive,Easing cycle begins
+2024-11-05,Trump re-elected (2nd term),politics,ambiguous,Trump trade rally
+2025-01-20,Trump 2nd term inauguration / Stargate $500B,politics,positive,AI infra announcement
+2025-01-27,DeepSeek R1 shock,technology,negative,Nvidia -17% in one day
+2025-04-02,"Trump ""Liberation Day"" reciprocal tariffs",tariff,negative,Largest US tariff hike since Smoot-Hawley
+2025-04-09,Trump 90-day tariff pause,tariff,positive,S&P +9.5% one-day rally
+2025-06-21,US strikes Iran nuclear sites,geopolitics,negative,Direct US-Iran kinetic action
+2025-10-13,OpenAI tender at $500B,markets,positive,Surpasses SpaceX as largest private co
+2026-02-12,Anthropic $380B Series G,markets,positive,AI valuation milestone
+2026-04-22,OpenAI $852B raise,markets,positive,Largest private funding round in history
+2026-05-01,Iran-US ceasefire talks reported,geopolitics,positive,De-escalation news (current event)

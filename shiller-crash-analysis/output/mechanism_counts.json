@@ -1,0 +1,14 @@
+{
+  "cape_ge_25": {
+    "incomplete": 4,
+    "earnings_driven": 3,
+    "crash_driven": 3,
+    "no_reversion": 3
+  },
+  "cape_ge_30": {
+    "incomplete": 6,
+    "crash_driven": 2,
+    "mixed": 1,
+    "earnings_driven": 1
+  }
+}

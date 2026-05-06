@@ -1,0 +1,40 @@
+{
+  "anchors": {
+    "sp500_market_cap_usd_b": 61100.0,
+    "sp500_pe_ttm": 30.96,
+    "sp500_cape": 40.9,
+    "sp500_ttm_earnings_usd_b": 1973.5142118863048
+  },
+  "scenarios": [
+    {
+      "scenario": "BASE",
+      "market_cap_usd_b": 61100.0,
+      "ttm_earnings_usd_b": 1973.5142118863048,
+      "cape_earnings_usd_b": 1493.8875305623471,
+      "added_revenue_usd_b": 0.0,
+      "pe_ttm_adj": 30.96,
+      "cape_adj": 40.9
+    },
+    {
+      "scenario": "FULL_INCLUSION",
+      "market_cap_usd_b": 62536.5,
+      "ttm_earnings_usd_b": 1960.4142118863049,
+      "cape_earnings_usd_b": 1480.7875305623472,
+      "added_revenue_usd_b": 52.6,
+      "pe_ttm_adj": 31.8996361181383,
+      "cape_adj": 42.231919643631116
+    },
+    {
+      "scenario": "LOOKTHROUGH",
+      "market_cap_usd_b": 62321.11,
+      "ttm_earnings_usd_b": 1964.1142118863047,
+      "cape_earnings_usd_b": 1484.487530562347,
+      "added_revenue_usd_b": 47.155,
+      "pe_ttm_adj": 31.729880891268426,
+      "cape_adj": 41.98156516437143
+    }
+  ],
+  "bull_case_pe_ttm": 31.519869781148543,
+  "earnings_gap_to_mean_pe_usd_b": 1845.2357881136952,
+  "earnings_growth_needed_pct": 93.50000000000001
+}
